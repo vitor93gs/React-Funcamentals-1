@@ -1,5 +1,6 @@
 import {Container} from './components/Container'
 import {IdCard} from './components/IdCard'
+import {Counter} from './components/Counter'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           birth="1988-05-11"
           picture="https://randomuser.me/api/portraits/women/44.jpg"
         />
+        <Counter/>
       </Container>
     </div>
   );
